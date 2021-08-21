@@ -20,13 +20,14 @@
     <!-- Header_part-html-end.  -->
     <!-- Main-part-html-start  -->
     <main>
-        <section class="mx-5 mt-10">
+        <section class="mx-5 mt-10 mb-10">
             <div class=" grid grid-cols-2">
-                <div class="mac-img mr-5">
+                <div class="mac-img mr-5 ">
                     <img src="images/mac.png" alt="">
                 </div>
                 <div class="mac-details">
-                    <h1 class="text-3xl text-black">Customize your Blue 24-inch <br> iMace with Apple M1 chip.</h2>
+                    <h1 class="text-3xl text-black font-bold">Customize your Blue 24-inch <br> iMace with Apple M1 chip.
+                        </h2>
                         <p class="mt-2">A new report coming through @LeaksApplePro claims that the M1X-powered Mac Mini
                             has been
                             delayed until early 2022 because of “marketing reasons.” While the exact reason has not been
@@ -35,7 +36,7 @@
                             decision.</p>
                         <!-- memory-part-html-start  -->
                         <div class="about-memory mt-12">
-                            <h2 class="text-xl ">Memory:</h2>
+                            <h2 class="text-xl font-bold">Memory:</h2>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
                                 8GB Undfine Memory .</button>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
@@ -44,7 +45,7 @@
                         <!-- memory-part-html-end.  -->
                         <!-- storage-part-html-start  -->
                         <div class="about-memory mt-12">
-                            <h2 class="text-xl ">Storage:</h2>
+                            <h2 class="text-xl font-bold">Storage:</h2>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
                                 256GB SSD storage .</button>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
@@ -55,7 +56,7 @@
                         <!-- storage-part-html-end.  -->
                         <!-- delivery-option-part-html-start  -->
                         <div class="about-memory mt-12">
-                            <h2 class="text-xl ">Chose your delivery opstion:</h2>
+                            <h2 class="text-xl font-bold">Chose your delivery opstion:</h2>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
                                 Friday, AUG 25 FREE Prime Delivery .</button>
                             <button class="text-center text-black border-2 border-indigo-200 rounded mr-2 ">
@@ -65,28 +66,37 @@
                             <div class="total-details">
                                 <div class="grid grid-cols-2">
                                     <div class="info-details">
-                                        <h5 class="text-md border-b-2">Extera Money Cost </h5>
-                                        <h5 class="text-md border-b-2">Extera Storage Cost </h5>
-                                        <h5 class="text-md border-b-2">Best Price </h5>
-                                        <h5 class="text-md border-b-4 border-black">Delivery Charge </h5>
-                                        <h5 class="text-md border-b-2">Total Price </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">Extera Money Cost </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">Extera Storage Cost </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">Best Price </h5>
+                                        <h5 class="text-md font-bold border-b-4 border-black mt-2">Delivery Charge </h5>
+                                        <h5 class="text-md font-bold border-b-2">Total Price </h5>
                                     </div>
                                     <div class=" price-details">
-                                        <h5 class="text-md border-b-2">$1299 </h5>
-                                        <h5 class="text-md border-b-2 ">$0 </h5>
-                                        <h5 class="text-md border-b-2">$0</h5>
-                                        <h5 class="text-md border-b-4 border-black">$0</h5>
-                                        <h5 class="text-md border-b-2">$1299 </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">$1299 </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">$0 </h5>
+                                        <h5 class="text-md font-bold border-b-2 mt-2">$0</h5>
+                                        <h5 class="text-md font-bold border-b-4 border-black mt-2">$0</h5>
+                                        <h5 class="text-md font-bold border-b-2">$1299 </h5>
                                     </div>
+                                    <!-- Promo-Code-Part-Start  -->
+                                    <div class="promo-code mt-10">
+                                        <h3 class="text-xl"> Add Promo Code</h3>
+                                        <div class="inline-flex mt-2 h-10 ">
+                                            <input class="border-2 border-indigo-200 rounded" type="text"
+                                                placeholder="input your promo code.">
+                                            <button
+                                                class="btn border border-2 rounded bg-red-800 text-white text-center px-6">Apply</button>
+                                        </div>
+                                    </div>
+                                    <!-- Promo-Code-Part-End. -->
                                 </div>
                             </div>
-                            <div></div>
                         </div>
                         <!-- delivery-option-part-html-end.  -->
-
-
                 </div>
         </section>
+        <hr>
     </main>
     <!-- Main-part-html-end.  -->
     <!-- Footer-part-html-start  -->
@@ -94,8 +104,15 @@
 
     </footer>
     <!-- Footer-part-html-end. -->
-
-
+    <section class=" mt-10 mb-10">
+        <div class=" grid grid-cols-1 ">
+            <div class="inline-flex  w-3/4 text-position ">
+                <h1 class=" out-total text-3xl text-black font-bold text-center "> Total:</h1>
+                <button class=" out-total-amount text-3xl text-black font-bold text-center ml-10 ">$<span
+                        id="">1299</span></button>
+            </div>
+        </div>
+    </section>
     <!-- javaScript-linlup  -->
     <script src=" js/script.js"></script>
 </body>
