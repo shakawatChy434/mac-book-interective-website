@@ -6,7 +6,7 @@ body{
 ul li{
     text-decoration: none;
 }
-
+/* Footer-Part-Css-Start  */
 .text-position{
     margin-top: 20px;
     margin-left: 100px;
@@ -15,3 +15,4 @@ align-items:  center;
     /* margin-left: 200px; */
     /* display: inline-block; */
 };
+/* Footer-Part-Css-End. */
