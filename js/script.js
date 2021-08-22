@@ -7,17 +7,17 @@ function totalMemoryCost(product) {
 };
 /* storage-part  */
 function totalStorageCost(product) {
-    const costOfMemory = document.getElementById('storage-cost');
-    costOfMemory.innerText = product;
-    const costOfMemoryAmount = parseInt(costOfMemory.innerText);
-    return costOfMemoryAmount;
+    const costOfStorage = document.getElementById('storage-cost');
+    costOfStorage.innerText = product;
+    const costOfStorageAmount = parseInt(costOfStorage.innerText);
+    return costOfStorageAmount;
 };
 /* delivery-part  */
 function totalDeliveryCost(product) {
-    const costOfMemory = document.getElementById('delivery-cost');
-    costOfMemory.innerText = product;
-    const costOfMemoryAmount = parseInt(costOfMemory.innerText);
-    return costOfMemoryAmount;
+    const costOfDelivery = document.getElementById('delivery-cost');
+    costOfDelivery.innerText = product;
+    const costOfDeliveryAmount = parseInt(costOfDelivery.innerText);
+    return costOfDeliveryAmount;
 };
 function getTotalInput() {
     /*  calculation-total-cost-of-sold-start  */
